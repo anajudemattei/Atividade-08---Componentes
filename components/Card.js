@@ -50,15 +50,15 @@ const styles = StyleSheet.create({
     fontSize: Platform.OS === "ios" ? width * 0.05 : width * 0.045,
     fontWeight: "bold",
     color: "#333",
-    textAlign: "center", // Centraliza horizontalmente
+    textAlign: "center", 
   },
   list: {
     marginVertical: height * 0.01,
-    alignItems: "center", // Centraliza os itens horizontalmente
+    alignItems: "center", 
   },
   listItem: {
     fontSize: width * 0.035,
     color: "#555",
-    textAlign: "center", // Centraliza horizontalmente
+    textAlign: "center", 
   },
 });
